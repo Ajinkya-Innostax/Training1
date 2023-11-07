@@ -1,0 +1,80 @@
+
+.parent-container {
+    width: 600px;
+    margin-left: 250px;
+    
+}
+.text-field{
+    display: flex;
+    flex-direction: column;
+    /* align-content: start; */
+    align-self: flex-start;
+}
+/* .container-1 {
+    width: 600px;
+    height: 700px;
+} */
+.FormName{
+    display: flex;  
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    
+}
+
+.FormId {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.FormGender{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.FormPhoneNumber{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 10px 0 0px 0;
+}
+
+
+.LabelWithSpace {
+    /* margin-bottom: 10px; Adjust the margin as needed */
+    margin-right: 10px;
+  }
+
+.EditButton {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+.Remove {
+    margin: 0 0 0 10;
+}
+
+
+/* .FormGender{
+    margin: 10px 0 10px 0;
+} */
+
+.Submit {
+    margin: 20px 0 30px 0;
+   
+}
+
+.text-danger {
+    font-size: smaller;
+    align-self: flex-start;
+    /* margin-left: 10px; */
+    
+}
+
+.SmallerFormField {
+    width: 450px; /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+
